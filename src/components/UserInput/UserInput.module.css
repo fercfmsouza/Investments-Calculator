@@ -1,0 +1,65 @@
+.form {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #375e8d, #436083);
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #f7f7fb;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #f7f7fb;
+  font-size: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: linear-gradient(180deg, #194882, #3a5a80);
+  color: #f7f7fb;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  cursor: pointer;
+}
+
+.buttonAlt {
+  font-family: 'Roboto Condensed', sans-serif;
+  border: none;
+  background: transparent;
+  color: #f7f7fb;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient(180deg, #122b4a, #11253d);
+}
+
+.buttonAlt:hover {
+  background: transparent;
+  color: #86a2c4;
+}
