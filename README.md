@@ -26,6 +26,12 @@ By default, the application is set with the following initial values in the User
 - Investment Duration (years): 10
 - Feel free to modify these values in the input fields to calculate the investment results based on your own financial scenario.
 
+## Deployment
+
+Deployed with Github Pages.
+
+_Link:_ https://fercfmsouza.github.io/Investments-Calculator/
+
 ## Example Image
 
 Here's a screenshot of the application in action:
